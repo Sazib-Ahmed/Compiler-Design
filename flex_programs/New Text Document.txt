@@ -1,3 +1,8 @@
 C:\Program Files\CodeBlocks\MinGW\bin
 
 http://gnuwin32.sourceforge.net/packages.html
+
+
+filename1.l
+gcc lex.yy.c
+a.exe
