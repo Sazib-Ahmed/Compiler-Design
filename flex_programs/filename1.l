@@ -3,6 +3,7 @@
 "hello world"	{printf("GOODBYE\n");}
 .	{printf("Wrong Input\n");}
 [a-zA-Z]  	{printf("alpha numeric\n");}
+[0-9]  	{printf("Number\n");}
 %%
 
 /*User defined function */
