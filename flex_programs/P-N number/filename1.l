@@ -1,8 +1,9 @@
 /* Rules */
 %%
 
+
+[+]?[0-9]+	{printf("  Positive Number\n");}
 [-][0-9]+  	{printf("  Negative Number\n");}
-[0-9]+	{printf("  Positive Number\n");}
 [a-zA-Z]	{printf("  Not a Number\n");}
 
 %%

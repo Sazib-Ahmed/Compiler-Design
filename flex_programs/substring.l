@@ -1,9 +1,8 @@
 /* Rules */
 %%
 
-[-][0-9]+  	{printf("  Negative Number\n");}
-[0-9]+	{printf("  Positive Number\n");}
-[a-zA-Z]	{printf("  Not a Number\n");}
+[.1][0][1][1]+  	{printf("  Accepted\n");}
+
 
 %%
 
